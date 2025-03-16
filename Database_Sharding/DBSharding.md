@@ -98,5 +98,4 @@ SELECT create_distributed_table('users', 'id');
 - `SELECT * FROM users;` runs a parallel query across all workers.
 
 ---
-This setup ensures PostgreSQL scales efficiently with Citus. 🚀
 
